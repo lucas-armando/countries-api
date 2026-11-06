@@ -1,0 +1,7 @@
+package com.example.countries.exception;
+
+public class InvalidSortException extends RuntimeException {
+    public InvalidSortException(String message) {
+        super(message);
+    }
+}
